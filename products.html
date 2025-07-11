@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Crunch- Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h2 class="logo">Tech Crunch</h2>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html" class="cart-link">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </div>
+        </nav>
+
+      <main class="main-content">
+        <div class="container">
+            <h1 class="page-title">Our Products</h1>
+            
+            <!--Filer Buttons-->
+            <div class="filters">
+              <button class="filter-btn active" data-category="all">All Products</button>
+                <button class="filter-btn" data-category="Phones">Phones</button>
+                <button class="filter-btn" data-category="Laptops">Laptops</button>
+                <button class="filter-btn" data-category="Accessories">Accessories</button>
+            </div>
+
+            <!-- Products Here -->
+
+            <div class="products-grid" id="products-grid">
+                <!-- JavaScript will populate products here-->
+            </div>
+
+      <footer class="footer">
+        <p><strong>&copy; 2025 Tech Crunch.</strong> All rights reserved.</p>
+        </footer>
+
+        <script src="script.js"></script>
+</body>
+</html>
