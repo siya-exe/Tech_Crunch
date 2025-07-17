@@ -200,4 +200,39 @@ body {
     padding: 40px 0;
     text-align: center;
 }
-    
+
+.main-content {
+    margin-top: 70px;
+    padding: 60px 0;
+    min-height: calc(100vh - 140px);
+}
+
+.page-title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #1e293b;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.filter-button {
+    padding: 10px 20px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.filter-button:hover, .filter-button.active {
+    background-color: #3b82f6;
+    color: white;
+}
